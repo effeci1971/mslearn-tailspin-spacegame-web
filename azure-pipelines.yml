@@ -1,11 +1,3 @@
 pool: Default
 steps:
 - bash: echo hello world
-- task: AzurePowerShell@5
-  inputs:
-    ScriptType: 'InlineScript'
-    Inline: |
-      # You can write your azure powershell scripts inline here. 
-      # You can also pass predefined and custom variables to this script using arguments
-      get-help
-    azurePowerShellVersion: 'LatestVersion'
