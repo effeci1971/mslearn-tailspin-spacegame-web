@@ -1,5 +1,5 @@
 ﻿/// <binding Clean='clean' />
-"use strict";
+"use strict"; // Commento
 const gulp = require("gulp"),
       rimraf = require("rimraf"),
       concat = require("gulp-concat"),
